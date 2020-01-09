@@ -2,6 +2,7 @@ class Artist
   attr :name
   
   def initialize(name)
+    @@all = []
     @name = name
     @songs = []
   end
