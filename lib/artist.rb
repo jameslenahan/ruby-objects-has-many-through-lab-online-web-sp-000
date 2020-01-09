@@ -1,5 +1,5 @@
 class Artist
-  attr :name, :songs
+  attr :name
   
   def initialize(name)
     @name = name
